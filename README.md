@@ -50,9 +50,11 @@ Thought Routes
 * PUT /api/thoughts/:id
 * DEL /api/thoughts/:id
 
-Friend and Reaction Routes
+Reaction Routes
 * POST /api/thoughts/:thoughtId/reactions
 * DEL /api/thoughts/:thoughtId/reactions/:reactionId
+
+Friend Routes
 * POST /api/users/:userId/friends/:friendId
 * DEL /api/users/:userId/friends/:friendId
 
