@@ -74,10 +74,8 @@ This will help the user build a scalable NoSQL database structure.
 [Demo](https://drive.google.com/file/d/1SQ3eNPpzjym5a04YZcr7iIalk43WcwAh/view?usp=sharing)
 
 ## Screenshots
-<img width="1000" alt="Demo" src="https://drive.google.com/file/d/1SQ3eNPpzjym5a04YZcr7iIalk43WcwAh/view?usp=sharing">
 <img width="1000" alt="Routes" src="https://github.com/san1718/mc18-Social_Network_API/blob/main/images/Routes.png">
 <img width="500" alt="RouteF" src="https://github.com/san1718/mc18-Social_Network_API/blob/main/images/RouteF.png">
-<img width="1000" alt="" src="">
 
 ## Credits
 Starter code from module mini project
