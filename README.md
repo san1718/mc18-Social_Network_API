@@ -74,8 +74,8 @@ This will help the user build a scalable NoSQL database structure.
 [Demo]()
 
 ## Screenshots
-<img width="1000" alt="" src="">
-<img width="1000" alt="" src="">
+<img width="1000" alt="Routes" src="">
+<img width="1000" alt="RouteF" src="">
 <img width="1000" alt="" src="">
 <img width="1000" alt="" src="">
 
