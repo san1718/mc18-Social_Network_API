@@ -20,51 +20,63 @@ Given a social network API, the user is connected to MongoDB database with Mongo
 
 ## Installation / Usage
 1. Clone repository:
-    * git clone git@github.com:san1718/mc18-Social_Network_API.git
+    ```bash
+    git clone git@github.com:san1718/mc18-Social_Network_API.git
+    ```
 2. Install Dependencies:
-    * npm install
+    ```bash
+    npm install
+    ```
 3. Configure Environment Variables:
-    Create .env file in the root directory and add the MongoDB URI:
-    * MONGO_URI=mongodb://127.0.0.1:27017/socialNetworkDB
+    Create `.env` file in the root directory and add the MongoDB URI:
+    ```plaintext
+    MONGO_URI=mongodb://127.0.0.1:27017/socialNetworkDB
+    ```
 4. (Optional) Add Seeds to the Database:
-    * node seed.js
+    ```bash
+    node seed.js
+    ```
 5. Start Server:
-    * npm start
+    ```bash
+    npm start
+    ```
 
 ## Testing
 Use one of the following to test the API endpoints: 
-* Insomnia
-* Postman
+* `Insomnia`
+* `Postman`
 
 ## Route Examples
-User Routes
-* GET /api/users
-* POST /api/users
-* Get /api/users/:id
-* PUT /api/users/:id
+**User Routes**
+* `GET` /api/users
+* `POST` /api/users
+* `Get`/api/users/**:id**
+* `PUT` /api/users/**:id**
 
-Thought Routes
-* GET api/thoughts
-* POST /api/thoughts
-* GET /api/thoughts/:id
-* PUT /api/thoughts/:id
-* DEL /api/thoughts/:id
+**Thought Routes**
+* `GET` api/thoughts
+* `POST` /api/thoughts
+* `GET` /api/thoughts/**:id**
+* `PUT` /api/thoughts/**:id**
+* `DEL` /api/thoughts/**:id**
 
-Reaction Routes
-* POST /api/thoughts/:thoughtId/reactions
-* DEL /api/thoughts/:thoughtId/reactions/:reactionId
+**Reaction Routes**
+* `POST` /api/thoughts/**:thoughtId**/reactions
+* `DEL` /api/thoughts/**:thoughtId**/reactions/**:reactionId**
 
-Friend Routes
-* POST /api/users/:userId/friends/:friendId
-* DEL /api/users/:userId/friends/:friendId
+**Friend Routes**
+* `POST` /api/users/**:userId**/friends/**:friendId**
+* `DEL` /api/users/**:userId**/friends/**:friendId**
 
 ## Technologies Used
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* dontenv
-* Insomnia
+- **Back-end:**
+    * Node.js
+    * Express.js
+    * MongoDB
+    * Mongoose
+    * dontenv
+- **Viewing:**
+    * Insomnia
 
 ## Summary 
 The Social Media API will help the users create a solution for a powerful and flexible backend.
