@@ -19,6 +19,7 @@ Given a social network API, the user is connected to MongoDB database with Mongo
 * Test API POST and DELETE routes
 
 ## Installation / Usage
+For local: 
 1. Clone repository:
     ```bash
     git clone git@github.com:san1718/mc18-Social_Network_API.git
